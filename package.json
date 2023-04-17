@@ -1,0 +1,34 @@
+{
+  "name": "minista-project",
+  "private": true,
+  "scripts": {
+    "dev": "minista",
+    "build": "minista build",
+    "preview": "minista preview",
+    "clean": "trash ./dist"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Edge versions",
+    "last 1 Firefox versions",
+    "last 1 Safari versions",
+    "last 1 iOS versions",
+    "last 1 ChromeAndroid versions"
+  ],
+  "devDependencies": {
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.16",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.1",
+    "minista": "^2.8.3",
+    "postcss": "^8.4.22",
+    "prettier": "2.8.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.7.4"
+  }
+}

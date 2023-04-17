@@ -1,1 +1,1 @@
-# minista
+# minista-project
