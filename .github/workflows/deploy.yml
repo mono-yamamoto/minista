@@ -17,5 +17,5 @@ jobs:
         server: ${{ secrets.PROD_SERVER }}
         username: ${{ secrets.PROD_USERNAME }}
         password: ${{ secrets.PROD_PASSWORD }}
-        local-dir: ./_site/
+        local-dir: ./dist/
         server-dir: ${{ secrets.PROD_SERVER_DIR }}
